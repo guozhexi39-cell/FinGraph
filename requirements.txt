@@ -1,0 +1,11 @@
+# Direct dependencies; install with CPython 3.13. See README.md.
+# The constraint file pins the transitive versions used for validation.
+-c requirements.lock.txt
+alpaca-py==0.43.5
+certifi==2026.7.22
+langgraph==1.2.10
+openai==2.53.0
+pydantic==2.13.4
+python-dotenv==1.2.2
+pytest==9.1.1
+streamlit==1.61.1
